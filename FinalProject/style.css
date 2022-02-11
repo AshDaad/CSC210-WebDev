@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'navFont';
+    src: url('fonts/above.ttf');
+}
+@font-face {
+    font-family: 'normFont';
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'headFont';
+    src: url('fonts/Parisish.ttf');
+}
+body {
+    background: #E0D6AC;
+}
+
+article {
+    padding-top: 15px;
+    background: #5D7359;
+    border-radius: 14px;
+    font-family: 'normFont', serif;
+    padding-bottom: 15px;
+}
+nav {
+    font-family: 'navFont', serif;
+    font-weight: 700;
+    border-radius: 14px;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    height: 50px;
+    background: #8C5430;
+}
+nav ul {
+    padding-top: 23px;
+    border-radius: 14px;
+}
+
+nav img {
+    height: 125px;
+    width: 150px;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em; 
+    margin: 0px 50px;
+    
+    
+}
+
+nav li a {
+    text-align: center;
+    text-decoration: none;
+    color: #D6AA5C;
+    
+}
+nav li a:hover {
+    background:#661C0E;
+    box-shadow: 
+}
+
+nav div {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -141px;
+}
+h1, h2, h5 {
+    font-size: 1.5em;
+    font-family: 'headFont', sans-serif;
+    color: #661C0E;
+}
+
+hgroup{
+    font-size: 1.75em;
+    width: 300px;
+    font-family: 'headFont', sans-serif;
+    margin: 0px 20px;
+    margin-right: 0px;
+}
+
+footer{
+    margin-left: 15px;
+    color: #661C0E;
+    font-family: 'headFont', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+/*Contact Us Css */
+
+#contact_tabs {
+    float: right;
+    margin-right: 700px;
+    margin-bottom: 15px;
+    width: 25%;
+    background: #D6AA5C;
+    border: none;
+}
+
+#contact_tabs .ui-widget-header { 
+    background: transparent; 
+    border: none; 
+    border-bottom: 1px solid #661C0E;  
+    border-radius: 0px; 
+} 
+#contact_tabs .ui-tabs-nav .ui-state-default, #specDescription { 
+    background: #D6AA5C; 
+    border: none; 
+} 
+#contact_tabs .ui-tabs-nav .ui-state-default a { 
+    color: #5D7359; 
+} 
+#contact_tabs .ui-tabs-nav .ui-state-active a { 
+    color: #8C5430; 
+}
+#contact_tabs .ui-tabs-nav .ui-state-hover a { 
+    color: #D6AA5C; 
+    background: #661C0E;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#contact_tabs ul li a:focus { 
+    outline:none;
+}
+
+#Hours, #contactInfo{
+    font-family: 'normFont';
+}
+#contact_form{
+    margin-top: 175px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form {
+    text-align: center;
+}
+input, textarea {
+    margin: 10px auto;
+    width: 100px;
+}
+textarea {
+    height: 200px;
+    width: 600px;
+}
+
+.input {
+    width: 600px;
+}
+
+/*Product Specs Styling */
+
+#specDescription{
+    text-align: center;
+    float: right;
+    width: 700px;
+    margin-right: 575px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    border-radius: 14px;
+    padding: 5px 10px;
+}
+
+table {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+table, tr, td, thead {
+    border: 2px solid #E0D6AC;
+    border-radius: 14px;
+}
+td {
+    text-align: right;
+    padding-right: 5px;
+}
+tr {
+    background: #E0D6AC;
+}
+th {
+    background: #5D7359;
+}
+
+tr:hover {
+    background: #8C5430;
+}
+
+#sheet {
+    margin-top: 25px;
+    font-size: 1.75em;
+    width: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h5 {
+    width: 250px;
+    margin-top: 5px;
+    margin-left: 725px;   
+}
+
+/*About us Styling */
+
+#websiteDescription {
+    text-align: center;
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 14px;
+    padding: 5px 10px;
+    background: #D6AA5C;
+}
+
+canvas {
+    margin-top: 15px;
+    overflow: visible;
+}
+
+#aboutUs {
+    padding-left: 25px;
+    margin-top: -750px;
+    padding-bottom: 750px;
+}
+
+/*Index Styling*/
+
+#productpara {
+    text-align: center;
+    width: 675px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px;
+}
+
+#image {
+    border-radius: 20px;
+    margin-left: 375px;
+   box-shadow: 10px 10px 5px #404040;
+}
+
+#welcome {
+    float: right;
+    text-align: center;
+    width: 850px;
+    margin-top: 35px;
+    margin-right: 510px;
+    margin-left: auto;
+    margin-bottom: 50px;
+    border-radius: 14px;
+    padding: 5px 10px;
+    background: #D6AA5C;
+}
+
+footer img{
+    float: right;
+    height: 67px;
+    width: 120px;
+    margin-left: 10px;
+}

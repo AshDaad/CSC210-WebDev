@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us!</title> 
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="scripts/contact.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='about_us.html'>About Us</li></a>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                   <li><a href='product_specs.html'>Our Product</a></li>
+                    <li><a href='contact_us.html'>Contact Us</a></li>
+                </ul>
+            <div><a href='index.html'><img src='images/HoloHouseLogo2.png'></a></div>
+            </nav>
+        </header>
+<article>
+        
+       
+
+        <div id='contact_tabs'>
+          <ul>
+            <li><a href="#Hours">Our Hours</a></li>
+            <li><a href="#contactInfo">Telephone &amp; Email</a></li>
+            <li><a href="#Mail">Snail Mail</a></li>
+        </ul>
+            
+        <div id='Hours'><p>HoloHouse offices work from 8AM - 5PM to assist with any of our customer's needs. There are many ways you can get in touch with us. Click on the tabs to view different outlets of communication.</p></div>
+        <div id='contactInfo'>
+            <p>You can call with any problems or questions during any regular working hours with our toll-free number.</p>
+            <p id='number' onclick= 'dostuffNumber()'>1(800)GET-VOID</p>
+            <p>Can't find a phone? Email us here!</p>
+            <p id='email'>help@voidvisualizer.com</p>
+        </div>
+        <div id='Mail'>
+            <p>HoloHouse offices are located at</p><p id='address' onclick= 'dostuffAddress()'>3.14 HoloHouse Lane </br>Salt Lake City, Utah</p>
+    <p>Need to send us something? You can send it to</p><p id='mailAddress' onclick= 'dostuffMail()'> P.O. Box 314159 </br> Salt Lake City, Utah </br>84102</p></div>
+        </div>
+
+    <hgroup>
+            <h1>Need Assistance?</h1>
+        </hgroup>
+
+        <h2 id='contact_form'>You can also just contact us below!</h2>
+     <form name='Contact Us'>
+        <input type='text' name='nameBox' placeholder='Name' value='' class='input'></br>
+        <input type='text' name='emailBox' placeholder='Email' class='input'></br>
+        <input type='text' name='phoneBox' placeholder='Phone Number (Optional)' class='input'></br>
+        <textarea name="comments" form="Contact Us" placeholder='Message' id='formarea'></textarea></br>
+        <input type='button' name='submitButton' value='Submit' onClick= informCustomer(this.form)>        
+        </form>
+   </article>
+    </body>
+<footer><p>HoloHouse &copy; 2016</p></footer>
+
+
+</html>

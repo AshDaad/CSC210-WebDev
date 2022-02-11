@@ -1,0 +1,1 @@
+This was a group effort, I assisted with the color and layout ideas as well as created the about_us page and graph.
