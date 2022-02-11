@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat+Subrayada' rel='stylesheet' type='text/css'>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Weather</h1>
+            <div class="farenheit">
+                <div class="flipswitch">
+                    <input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs" checked>
+                    <label class="flipswitch-label" for="fs">
+                        <div class="flipswitch-inner"></div>
+                        <div class="flipswitch-switch"></div>
+                    </label>
+                </div>
+            </div>
+        </header>
+
+        <div id="back"></div>
+        <h2>
+            <div id="location"></div>
+        </h2>
+        <table>
+            <tr>
+                <div id="temp0"></div>
+                <div id="weather0"></div>
+            </tr>
+            <tr>
+                <ul id="forecast">
+
+                    <li class="1">
+                        <div class="date" id="date1"></div>
+                        <div class="temp" id="temp1"></div>
+                        <div class="weather" id="weather1"></div>
+
+                    </li>
+                    <li class="2">
+                        <div class="date" id="date2"></div>
+                        <div class="temp" id="temp2"></div>
+                        <div class="weather" id="weather2"></div>
+
+                    </li>
+                    <li class="3">
+                        <div class="date" id="date3"></div>
+                        <div class="temp" id="temp3"></div>
+                        <div class="weather" id="weather3"></div>
+                    </li>
+                    <li class="4">
+                        <div class="date" id="date4"></div>
+                        <div class="temp" id="temp4"></div>
+                        <div class="weather" id="weather4"></div>
+                    </li>
+                    <li class="5">
+                        <div class="date" id="date5"></div>
+                        <div class="temp" id="temp5"></div>
+                        <div class="weather" id="weather5"></div>
+                    </li>
+                </ul>
+            </tr>
+        </table>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
