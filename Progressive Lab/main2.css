@@ -1,0 +1,23 @@
+html{margin:0; padding:0; background-color: #30122d; font-family:"Lucida Console", Monaco, monospace;}
+* {color:#ffd6bf}
+body {font-size: 16px;text-align:left;width:117em;margin-left: 1.4em}
+p {margin:10px 10px 10px}
+a {padding:5px; text-decoration:none;color:#ef473a;}
+h4 {display: none;}
+nav ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color:#870734;}
+nav li {float: left;}
+nav li a {display: block; color:#ffd6bf; text-align: center; padding: 14px 16px; text-decoration: none;}
+nav li a:hover:not(.active) {background-color:#ffd6bf; color:#30122d}
+.active {background-color: #ef473a;}
+/*nav a:hover {border: 1px solid #30122d;}*/
+section {text-align:left;}
+section p {line-height:1.4;}
+section {width:700px; margin:0 20px; float:left;}
+table {float: inherit;}
+th {text-align: center;}
+footer {background-color:#870734; clear:both;}
+footer p {margin:0; padding:5px 10px}
+#title {padding: 5px;}
+#underTitle {margin-left: 4px; margin-top: 90px;}
+#futurePic, #profilePic{float: left; margin: -100px -600px 0px -429px;}
+

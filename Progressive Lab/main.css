@@ -1,0 +1,130 @@
+html {
+    background-image: url(https://i.imgur.com/FTTDGcX.png);
+    background-attachment: fixed;
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    width: 40%;
+    padding: 5px 15px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+header {
+    color: #ffffdd;
+    width: 120px;
+    height: 200px;
+    background: #333322;
+    position: fixed;
+    margin-top: -2%;
+    margin-left: -8%;
+    border: 3px black groove;
+    float: left;
+}
+
+header h4 {
+    color: #ffffff;
+    padding-left: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color: #333322;
+}
+
+nav li a {
+    display: block;
+    color: #ffffdd;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+section {
+    clear: left;
+    background: #bbbb55;
+    border: 3px #333322 ridge;
+    padding: 2%;
+    margin-bottom: 3%;
+    position: sticky;
+}
+
+h1,h2,h3 {
+    color: #333322;
+    text-align: center;
+}
+
+p {
+    color: #333322;
+    text-align: center;
+    padding: 10px;
+}
+
+table, td {
+    margin: 0 10% 0;
+    border-collapse: collapse;
+    border: 2px black solid;
+    background-color: #dddd88;
+    width: 20%;
+    font-size: 50px;
+}
+
+td img {
+    vertical-align: bottom;
+}
+
+th {
+    font-family: Vladimir Script;
+}
+
+ol {
+    list-style: upper-roman;
+    list-style-position: inside;
+    text-align: center;
+    color: #333322;
+    display: block;
+}
+
+ol li {
+    text-align: center;
+    color: #333322;
+    display: grid;
+    font-size: 22;
+}
+
+footer {
+    clear: both;
+    background: #bbbb55;
+    color: #333322;
+    padding: 15px;
+    border: 3px black groove;
+}
+
+#futurePic {
+    float: right;
+    border-radius: 80%;
+    padding: inherit;
+}
+
+#profilePic {
+    float: right;
+    border-radius: 100%;
+    padding: inherit;
+}
+
+.theBegining {
+    font-family: Vladimir Script;
+    font-size: 46px;
+}
