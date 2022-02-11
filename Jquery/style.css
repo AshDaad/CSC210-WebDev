@@ -1,0 +1,34 @@
+.box {
+    margin: 5px;
+    padding: 3px;
+    border: 2px solid #000;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+
+#content1 {
+    background: #a00;
+    
+}
+
+#content2 {
+    background: #aa0;
+}
+
+#content3 {
+    background: #0a0;
+}
+
+#content4 {
+    background: #0aa;
+}
+
+
+#content5 {
+    background: #00a;
+}
+
+#content6 {
+    background: #a0a;
+}
